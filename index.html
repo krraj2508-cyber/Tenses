@@ -1,0 +1,1506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iftikhar Ahmed | Educator</title>
+    <style>
+        :root {
+            --brand-navy: #1e3a8a;  /* Deep Professional Blue */
+            --brand-gold: #fbbf24;  /* Academic Gold */
+            --text-grey: #374151;
+            --bg-color: #f3f4f6;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Georgia, serif;
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 90vh;
+        }
+
+        .back-link {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            color: var(--brand-navy);
+            text-decoration: none;
+            font-weight: bold;
+            font-family: sans-serif;
+            font-size: 0.9rem;
+        }
+
+        /* --- The Identity Card --- */
+        .identity-card {
+            background: white;
+            width: 100%;
+            max-width: 450px;
+            border-radius: 24px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+            overflow: hidden;
+            text-align: center;
+            border-top: 8px solid var(--brand-navy);
+            padding-bottom: 40px;
+        }
+
+        /* --- Logo Area --- */
+        .logo-section {
+            padding-top: 50px;
+            padding-bottom: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .monogram-circle {
+            width: 100px;
+            height: 100px;
+            background-color: var(--brand-navy);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2.5rem;
+            font-family: serif; /* Elegant font for initials */
+            font-weight: bold;
+            box-shadow: 0 10px 20px rgba(30, 58, 138, 0.2);
+            border: 4px solid white;
+            outline: 2px solid var(--brand-navy);
+        }
+
+        /* --- Text Content --- */
+        h1 {
+            margin: 10px 0 5px 0;
+            color: var(--brand-navy);
+            font-size: 2.2rem;
+            letter-spacing: -0.5px;
+        }
+
+        .role {
+            font-family: sans-serif;
+            color: var(--brand-gold);
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 0.9rem;
+            margin-bottom: 30px;
+        }
+
+        .divider {
+            width: 50px;
+            height: 4px;
+            background-color: #e5e7eb;
+            margin: 0 auto 30px auto;
+            border-radius: 2px;
+        }
+
+        .philosophy {
+            padding: 0 40px;
+            color: var(--text-grey);
+            font-size: 1.15rem;
+            line-height: 1.8;
+            font-style: italic;
+            font-family: Georgia, serif;
+        }
+
+        .signature {
+            margin-top: 40px;
+            font-family: "Brush Script MT", cursive; /* Looks like a signature */
+            font-size: 1.5rem;
+            color: #9ca3af;
+        }
+
+    </style>
+</head>
+<body>
+
+    <a href="index.html" class="back-link">← Menu</a>
+
+    <div class="identity-card">
+        
+        <div class="logo-section">
+            <div class="monogram-circle">IA</div>
+        </div>
+
+        <h1>Iftikhar Ahmed</h1>
+        <div class="role">English Educator</div>
+
+        <div class="divider"></div>
+
+        <div class="philosophy">
+            "Education is not just about learning rules, but about understanding the logic behind language."
+        </div>
+
+        <div class="signature">Iftikhar Ahmed</div>
+
+    </div>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infographic: The Tense Matrix | Iftikhar Ahmed</title>
+    <style>
+        :root {
+            /* Color Coding */
+            --past-color: #e53e3e;   /* Red/Orange for Past */
+            --present-color: #38a169; /* Green for Present */
+            --future-color: #3182ce;  /* Blue for Future */
+            --aspect-color: #4a5568;  /* Grey for Aspect headers */
+            --bg-color: #f7fafc;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+
+        nav { text-align: center; margin-bottom: 20px; }
+        nav a { margin: 0 10px; color: var(--aspect-color); text-decoration: none; font-weight: bold; }
+
+        /* --- Header Section --- */
+        .header-concept {
+            text-align: center;
+            max-width: 700px;
+            margin: 0 auto 30px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+        h1 { margin: 0 0 10px 0; color: var(--aspect-color); }
+        .formula-text { font-size: 1.2rem; font-weight: bold; }
+        .highlight-time { color: #d69e2e; }
+        .highlight-aspect { color: #805ad5; }
+
+        /* --- THE MASTER GRID --- */
+        .tense-matrix {
+            display: grid;
+            /* 4 columns: Header + 3 Times */
+            grid-template-columns: 120px 1fr 1fr 1fr;
+            /* Rows auto-sized */
+            gap: 10px;
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            padding: 15px;
+            border-radius: 16px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+            overflow-x: auto; /* Allows scrolling on very small phones */
+        }
+
+        /* --- Grid Headers --- */
+        .grid-header {
+            padding: 15px 5px;
+            text-align: center;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            border-radius: 8px;
+        }
+
+        .corner-header { background: var(--aspect-color); color: white; font-size: 0.9rem; }
+        
+        .time-header.past { background: var(--past-color); color: white; }
+        .time-header.present { background: var(--present-color); color: white; }
+        .time-header.future { background: var(--future-color); color: white; }
+        
+        .aspect-header { 
+            background: #edf2f7; 
+            color: var(--aspect-color); 
+            text-align: right;
+            padding-right: 15px;
+            font-size: 0.9rem;
+        }
+        .aspect-header small { display: block; font-weight: normal; font-size: 0.75rem; opacity: 0.8; }
+
+        /* --- Grid Cells (The Data) --- */
+        .grid-cell {
+            background: #fdfdfd;
+            border: 2px solid #edf2f7;
+            padding: 15px 10px;
+            border-radius: 8px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        /* Color borders based on time column */
+        .cell-past { border-color: var(--past-color); background: #fff5f5; }
+        .cell-present { border-color: var(--present-color); background: #f0fff4; }
+        .cell-future { border-color: var(--future-color); background: #ebf8ff; }
+
+        .example-verb { font-size: 1.1rem; font-weight: 600; margin-bottom: 5px; color: #2d3748;}
+        .mini-formula { 
+            font-family: monospace; font-size: 0.75rem; 
+            color: #718096; background: rgba(255,255,255,0.7);
+            padding: 2px 6px; border-radius: 4px; display: inline-block;
+        }
+
+        /* Mobile Responsive Tweaks */
+        @media (max-width: 768px) {
+            .tense-matrix { grid-template-columns: 90px 1fr 1fr 1fr; gap: 5px; padding: 10px; }
+            .grid-header, .grid-cell { padding: 10px 5px; font-size: 0.9rem; }
+            .example-verb { font-size: 1rem; }
+            .mini-formula { display: none; /* Hide formulas on small screens to save space */ }
+            .aspect-header { text-align: center; padding-right: 5px; }
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Menu</a> | 
+        <a href="intro-tenses.html">Theory</a> | 
+        <a href="infographic.html">Rules Chart</a>
+    </nav>
+
+    <div class="header-concept">
+        <h1>The Tense Matrix</h1>
+        <p>How do we build the 12 tenses? It is a combination.</p>
+        <div class="formula-text">
+            TENSE = <span class="highlight-time">TIME (When?)</span> × <span class="highlight-aspect">ASPECT (How?)</span>
+        </div>
+    </div>
+
+    <div class="tense-matrix">
+
+        <div class="grid-header corner-header">TIME ➔<br>ASPECT ⬇</div>
+        <div class="grid-header time-header past">PAST<br><small>(Gone)</small></div>
+        <div class="grid-header time-header present">PRESENT<br><small>(Now)</small></div>
+        <div class="grid-header time-header future">FUTURE<br><small>(Upcoming)</small></div>
+
+        <div class="grid-header aspect-header">
+            SIMPLE
+            <small>Fact / Habit</small>
+        </div>
+        <div class="grid-cell cell-past">
+            <span class="example-verb">I played</span>
+            <span class="mini-formula">V2</span>
+        </div>
+        <div class="grid-cell cell-present">
+            <span class="example-verb">I play</span>
+            <span class="mini-formula">V1 (s/es)</span>
+        </div>
+        <div class="grid-cell cell-future">
+            <span class="example-verb">I will play</span>
+            <span class="mini-formula">will + V1</span>
+        </div>
+
+        <div class="grid-header aspect-header">
+            CONTINUOUS
+            <small>Ongoing Activity</small>
+        </div>
+        <div class="grid-cell cell-past">
+            <span class="example-verb">I was playing</span>
+            <span class="mini-formula">was/were + ing</span>
+        </div>
+        <div class="grid-cell cell-present">
+            <span class="example-verb">I am playing</span>
+            <span class="mini-formula">is/am/are + ing</span>
+        </div>
+        <div class="grid-cell cell-future">
+            <span class="example-verb">I will be playing</span>
+            <span class="mini-formula">will be + ing</span>
+        </div>
+
+        <div class="grid-header aspect-header">
+            PERFECT
+            <small>Completed / Result</small>
+        </div>
+        <div class="grid-cell cell-past">
+            <span class="example-verb">I had played</span>
+            <span class="mini-formula">had + V3</span>
+        </div>
+        <div class="grid-cell cell-present">
+            <span class="example-verb">I have played</span>
+            <span class="mini-formula">has/have + V3</span>
+        </div>
+        <div class="grid-cell cell-future">
+            <span class="example-verb">I will have played</span>
+            <span class="mini-formula">will have + V3</span>
+        </div>
+
+        <div class="grid-header aspect-header">
+            PERF. CONT.
+            <small>Duration over time</small>
+        </div>
+        <div class="grid-cell cell-past">
+            <span class="example-verb">I had been playing</span>
+            <span class="mini-formula">had been + ing</span>
+        </div>
+        <div class="grid-cell cell-present">
+            <span class="example-verb">I have been playing</span>
+            <span class="mini-formula">have been + ing</span>
+        </div>
+        <div class="grid-cell cell-future">
+            <span class="example-verb">I will have been playing</span>
+            <span class="mini-formula">will have been + ing</span>
+        </div>
+
+    </div>
+
+    <footer style="text-align: center; color: #a0aec0; font-size: 0.9rem; margin-top: 30px;">
+        Introductory Visual Guide | Iftikhar Ahmed, Educator
+    </footer>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infographic | Master Guide to English Tenses</title>
+    <style>
+        :root {
+            /* Color Coding for Time Periods */
+            --past-color: #c53030;   /* Red for finished */
+            --present-color: #2f855a; /* Green for now */
+            --future-color: #2b6cb0;  /* Blue for upcoming */
+            --bg-color: #f0f4f8;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+            color: #1a3a5f;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: #1a3a5f;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* --- The Grid Container --- */
+        .infographic-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 3 Columns side-by-side */
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* --- Column Headers --- */
+        .col-header {
+            text-align: center;
+            color: white;
+            padding: 15px;
+            font-size: 1.5rem;
+            font-weight: bold;
+            border-radius: 12px 12px 0 0;
+        }
+        .past-header { background-color: var(--past-color); }
+        .present-header { background-color: var(--present-color); }
+        .future-header { background-color: var(--future-color); }
+
+        /* --- The Tense Boxes --- */
+        .tense-box {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            display: flex;
+            flex-direction: column;
+            height: 100%; /* Makes boxes same height */
+        }
+
+        /* Add colored tops to boxes based on their column */
+        .past-col .tense-box { border-top: 4px solid var(--past-color); }
+        .present-col .tense-box { border-top: 4px solid var(--present-color); }
+        .future-col .tense-box { border-top: 4px solid var(--future-color); }
+
+        .tense-title {
+            font-weight: 800;
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+            color: #444;
+        }
+
+        .formula {
+            background: #e2e8f0;
+            padding: 8px;
+            border-radius: 4px;
+            font-family: "Courier New", monospace;
+            font-size: 0.85rem;
+            font-weight: bold;
+            color: #1a202c;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .example {
+            font-style: italic;
+            color: #555;
+            font-size: 0.95rem;
+        }
+
+        /* --- Mobile Responsiveness --- */
+        /* On phones, stack everything vertically */
+        @media (max-width: 768px) {
+            .infographic-container {
+                grid-template-columns: 1fr; /* 1 Column only */
+            }
+            .time-column {
+                margin-bottom: 30px;
+            }
+            .col-header {
+                 border-radius: 12px; /* Rounded corners on mobile */
+                 margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <a href="index.html" class="back-link">← Back to Home</a>
+    <h1>Master Infographic: The 12 English Tenses</h1>
+    <p style="text-align: center; margin-bottom: 30px;">Prepared for Classes 8-10 by Iftikhar Ahmed</p>
+
+    <div class="infographic-container">
+
+        <div class="time-column past-col">
+            <div class="col-header past-header">PAST</div>
+            <div style="display: grid; gap: 15px;">
+                <div class="tense-box">
+                    <div class="tense-title">Simple Past</div>
+                    <div class="formula">Subject + V2</div>
+                    <div class="example">I wrote a letter.</div>
+                </div>
+                <div class="tense-box">
+                    <div class="tense-title">Past Continuous</div>
+                    <div class="formula">was/were + V-ing</div>
+                    <div class="example">I was writing when he called.</div>
+                </div>
+                <div class="tense-box">
+                    <div class="tense-title">Past Perfect</div>
+                    <div class="formula">had + V3</div>
+                    <div class="example">I had written before leaving.</div>
+                </div>
+                <div class="tense-box">
+                    <div class="tense-title">Past Perfect Cont.</div>
+                    <div class="formula">had been + V-ing</div>
+                    <div class="example">I had been writing for an hour.</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="time-column present-col">
+            <div class="col-header present-header">PRESENT</div>
+             <div style="display: grid; gap: 15px;">
+                <div class="tense-box">
+                    <div class="tense-title">Simple Present</div>
+                    <div class="formula">Subject + V1 (s/es)</div>
+                    <div class="example">I write daily. / She writes.</div>
+                </div>
+                <div class="tense-box">
+                    <div class="tense-title">Present Continuous</div>
+                    <div class="formula">is/am/are + V-ing</div>
+                    <div class="example">I am writing right now.</div>
+                </div>
+                <div class="tense-box">
+                    <div class="tense-title">Present Perfect</div>
+                    <div class="formula">has/have + V3</div>
+                    <div class="example">I have written the note.</div>
+                </div>
+                <div class="tense-box">
+                    <div class="tense-title">Present Perfect Cont.</div>
+                    <div class="formula">has/have been + V-ing</div>
+                    <div class="example">I have been writing since 9 AM.</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="time-column future-col">
+            <div class="col-header future-header">FUTURE</div>
+             <div style="display: grid; gap: 15px;">
+                <div class="tense-box">
+                    <div class="tense-title">Simple Future</div>
+                    <div class="formula">will/shall + V1</div>
+                    <div class="example">I will write tomorrow.</div>
+                </div>
+                <div class="tense-box">
+                    <div class="tense-title">Future Continuous</div>
+                    <div class="formula">will be + V-ing</div>
+                    <div class="example">I will be writing at 5 PM.</div>
+                </div>
+                <div class="tense-box">
+                    <div class="tense-title">Future Perfect</div>
+                    <div class="formula">will have + V3</div>
+                    <div class="example">I will have written it by noon.</div>
+                </div>
+                <div class="tense-box">
+                    <div class="tense-title">Future Perfect Cont.</div>
+                    <div class="formula">will have been + V-ing</div>
+                    <div class="example">I will have been writing for two hours by then.</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer style="text-align: center; margin-top: 40px; color: #666;">
+        Visual Guide for Standard English Grammar
+    </footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tense Timeline | Iftikhar Ahmed</title>
+    <style>
+        body { font-family: sans-serif; background: #f4f4f9; padding: 20px; }
+        .timeline {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        .event {
+            background: white;
+            border-left: 10px solid #1a3a5f;
+            padding: 15px;
+            border-radius: 8px;
+            position: relative;
+        }
+        .time-label {
+            font-weight: bold;
+            color: #1a3a5f;
+            text-transform: uppercase;
+            font-size: 0.8rem;
+        }
+        .tense-name { font-size: 1.2rem; margin: 5px 0; color: #2c5282; }
+        .desc { font-size: 0.9rem; color: #4a5568; }
+        /* Timeline line visual */
+        .event::before {
+            content: '';
+            position: absolute;
+            left: -15px;
+            top: 50%;
+            width: 10px;
+            height: 2px;
+            background: #1a3a5f;
+        }
+    </style>
+</head>
+<body>
+    <h2 style="text-align:center;">Action Timeline Guide</h2>
+    
+    <div class="timeline">
+        <div class="event">
+            <div class="time-label">Completed Action</div>
+            <div class="tense-name">Past Perfect</div>
+            <div class="desc">Action finished before another past action. <br><b>Ex:</b> The bell <i>had rung</i> before I reached.</div>
+        </div>
+        <div class="event" style="border-left-color: #2f855a;">
+            <div class="time-label">Right Now</div>
+            <div class="tense-name">Present Continuous</div>
+            <div class="desc">Action happening at this very moment. <br><b>Ex:</b> I <i>am teaching</i> grammar now.</div>
+        </div>
+        <div class="event" style="border-left-color: #2b6cb0;">
+            <div class="time-label">Expectation</div>
+            <div class="tense-name">Future Simple</div>
+            <div class="desc">Action that will happen later. <br><b>Ex:</b> We <i>shall complete</i> the chapter tomorrow.</div>
+        </div>
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helping Verb Matrix</title>
+    <style>
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; background: white; }
+        th, td { border: 1px solid #cbd5e0; padding: 12px; text-align: center; }
+        th { background-color: #1a3a5f; color: white; }
+        .subject { background-color: #edf2f7; font-weight: bold; }
+        .highlight { color: #c53030; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <h2 style="text-align:center;">Subject-Verb Agreement Chart</h2>
+    
+    <table>
+        <tr>
+            <th>Subject</th>
+            <th>Present (is/am/are)</th>
+            <th>Past (was/were)</th>
+            <th>Perfect (has/have)</th>
+        </tr>
+        <tr>
+            <td class="subject">I</td>
+            <td>am</td>
+            <td>was</td>
+            <td>have</td>
+        </tr>
+        <tr>
+            <td class="subject">He / She / It</td>
+            <td class="highlight">is</td>
+            <td class="highlight">was</td>
+            <td class="highlight">has</td>
+        </tr>
+        <tr>
+            <td class="subject">You / We / They</td>
+            <td>are</td>
+            <td>were</td>
+            <td>have</td>
+        </tr>
+    </table>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golden Rules | Correct Tenses</title>
+    <style>
+        :root {
+            --rule-blue: #1a3a5f;
+            --alert-red: #c53030;
+            --success-green: #2f855a;
+            --bg-color: #f8fafc;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background-color: var(--bg-color);
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        h1 { text-align: center; color: var(--rule-blue); margin-bottom: 5px; }
+        p.subtitle { text-align: center; color: #666; margin-bottom: 30px; }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: var(--rule-blue);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* --- Rule Cards --- */
+        .rule-card {
+            background: white;
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 25px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            border-left: 6px solid var(--rule-blue);
+        }
+
+        .rule-title {
+            font-size: 1.25rem;
+            font-weight: bold;
+            color: var(--rule-blue);
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+
+        .icon {
+            background: var(--rule-blue);
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 10px;
+            font-size: 0.9rem;
+        }
+
+        /* --- Signal Word Tables --- */
+        .signal-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        .signal-table th { background: #edf2f7; text-align: left; padding: 8px; color: #4a5568; }
+        .signal-table td { border-bottom: 1px solid #e2e8f0; padding: 8px; }
+        .highlight { color: var(--alert-red); font-weight: bold; }
+
+        /* --- Tip Box --- */
+        .pro-tip {
+            background-color: #f0fff4;
+            border: 1px solid #9ae6b4;
+            padding: 15px;
+            border-radius: 8px;
+            color: #22543d;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+
+    <a href="index.html" class="back-link">← Back to Menu</a>
+    <h1>Golden Rules for Tenses</h1>
+    <p class="subtitle">3 Steps to Solve Any Grammar Question</p>
+
+    <div class="rule-card">
+        <div class="rule-title"><span class="icon">1</span> Check the "Signal Words"</div>
+        <p>The sentence usually tells you the time through specific adverbs. Look for these words first:</p>
+        
+        <table class="signal-table">
+            <tr>
+                <th>If you see...</th>
+                <th>Use this Tense</th>
+            </tr>
+            <tr>
+                <td>Daily, Always, Usually, Often</td>
+                <td><span class="highlight">Simple Present</span> (V1 s/es)</td>
+            </tr>
+            <tr>
+                <td>Yesterday, Last week, Ago, In 1947</td>
+                <td><span class="highlight">Simple Past</span> (V2)</td>
+            </tr>
+            <tr>
+                <td>Tomorrow, Next year, Soon</td>
+                <td><span class="highlight">Simple Future</span> (will + V1)</td>
+            </tr>
+            <tr>
+                <td>Now, At this moment, Look!</td>
+                <td><span class="highlight">Present Continuous</span> (is/am/are + ing)</td>
+            </tr>
+            <tr>
+                <td>Just, Already, Yet, Recently</td>
+                <td><span class="highlight">Present Perfect</span> (has/have + V3)</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="rule-card" style="border-left-color: #d69e2e;">
+        <div class="rule-title" style="color: #d69e2e;">
+            <span class="icon" style="background: #d69e2e;">2</span> Check the Subject Number
+        </div>
+        <p>Ensure the verb matches the subject (Subject-Verb Agreement).</p>
+        <ul>
+            <li><strong>He, She, It, Ram (Singular):</strong> Likes 's' or 'es' (e.g., goes, plays, has, is).</li>
+            <li><strong>I, We, You, They (Plural):</strong> Do not add 's' to the main verb (e.g., go, play, have, are).</li>
+        </ul>
+        <div class="pro-tip">
+            <strong>Exception Rule:</strong> 'I' is singular but takes 'have' and 'do' (not has/does).
+        </div>
+    </div>
+
+    <div class="rule-card" style="border-left-color: #c53030;">
+        <div class="rule-title" style="color: #c53030;">
+            <span class="icon" style="background: #c53030;">3</span> Since vs. For
+        </div>
+        <p>Used in Perfect Continuous Tenses (has been / had been).</p>
+        <table class="signal-table">
+            <tr>
+                <th>Word</th>
+                <th>Rule</th>
+                <th>Example</th>
+            </tr>
+            <tr>
+                <td><strong>Since</strong></td>
+                <td>Point of time (Start date)</td>
+                <td>Since morning, Since 1990</td>
+            </tr>
+            <tr>
+                <td><strong>For</strong></td>
+                <td>Period of time (Duration)</td>
+                <td>For 2 hours, For 5 years</td>
+            </tr>
+        </table>
+    </div>
+
+    <footer style="text-align: center; color: #718096; margin-top: 40px; font-size: 0.9rem;">
+        Teacher's Note: Always identify the time signal first.
+    </footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Golden Rules | Tenses</title>
+    <style>
+        :root {
+            --rule-purple: #6b46c1;
+            --rule-orange: #dd6b20;
+            --rule-teal: #319795;
+            --bg-color: #f8fafc;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background-color: var(--bg-color);
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        h1 { text-align: center; color: #2d3748; margin-bottom: 5px; }
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: #2d3748;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* --- Rule Cards --- */
+        .rule-card {
+            background: white;
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 25px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            border-left: 6px solid #ccc;
+        }
+
+        .rule-title {
+            font-size: 1.25rem;
+            font-weight: bold;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            color: #4a5568;
+        }
+
+        .icon {
+            color: white;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 12px;
+            font-size: 1rem;
+            font-weight: bold;
+        }
+
+        /* --- Tables & Lists --- */
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+            font-size: 0.95rem;
+        }
+        .comparison-table th { background: #edf2f7; text-align: left; padding: 10px; }
+        .comparison-table td { border-bottom: 1px solid #e2e8f0; padding: 10px; vertical-align: top; }
+        
+        .wrong { color: #c53030; text-decoration: line-through; }
+        .right { color: #2f855a; font-weight: bold; }
+
+        .formula-box {
+            background: #edf2f7;
+            padding: 10px;
+            border-radius: 6px;
+            font-family: monospace;
+            font-weight: bold;
+            margin-top: 10px;
+            color: #2d3748;
+        }
+    </style>
+</head>
+<body>
+
+    <a href="index.html" class="back-link">← Back to Menu</a>
+    <h1>Advanced Tense Rules</h1>
+
+    <div class="rule-card" style="border-left-color: var(--rule-purple);">
+        <div class="rule-title">
+            <span class="icon" style="background: var(--rule-purple);">4</span> 
+            The "No -ing" Rule (Stative Verbs)
+        </div>
+        <p>Some verbs describe a state, not an action. <strong>Never</strong> use these in Continuous (ing) forms.</p>
+        
+        <table class="comparison-table">
+            <tr>
+                <th>Verb Type</th>
+                <th>Incorrect <span style="font-size:0.8em">❌</span></th>
+                <th>Correct <span style="font-size:0.8em">✅</span></th>
+            </tr>
+            <tr>
+                <td><strong>Senses</strong> (See, Hear, Smell)</td>
+                <td><span class="wrong">I am hearing a noise.</span></td>
+                <td><span class="right">I hear a noise.</span></td>
+            </tr>
+            <tr>
+                <td><strong>Emotion</strong> (Love, Hate, Want)</td>
+                <td><span class="wrong">I am wanting a pen.</span></td>
+                <td><span class="right">I want a pen.</span></td>
+            </tr>
+            <tr>
+                <td><strong>Mental</strong> (Know, Understand)</td>
+                <td><span class="wrong">I am understanding you.</span></td>
+                <td><span class="right">I understand you.</span></td>
+            </tr>
+             <tr>
+                <td><strong>Possession</strong> (Have, Own)</td>
+                <td><span class="wrong">He is having a car.</span></td>
+                <td><span class="right">He has a car.</span></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="rule-card" style="border-left-color: var(--rule-orange);">
+        <div class="rule-title">
+            <span class="icon" style="background: var(--rule-orange);">5</span> 
+            The "Before & After" Logic
+        </div>
+        <p>When two things happened in the past, use <strong>Past Perfect</strong> for the <em>first</em> action and <strong>Simple Past</strong> for the <em>second</em>.</p>
+        
+        <div class="formula-box">
+            Formula: 1st Action (Had + V3) ... 2nd Action (V2)
+        </div>
+
+        <ul style="margin-top: 15px; padding-left: 20px;">
+            <li>The patient <strong>had died</strong> (1st) before the doctor <strong>arrived</strong> (2nd).</li>
+            <li>When I <strong>reached</strong> the station (2nd), the train <strong>had left</strong> (1st).</li>
+        </ul>
+    </div>
+
+    <div class="rule-card" style="border-left-color: var(--rule-teal);">
+        <div class="rule-title">
+            <span class="icon" style="background: var(--rule-teal);">6</span> 
+            The "If" Conditionals
+        </div>
+        <p>If the sentence starts with "If", the tenses must balance correctly.</p>
+
+        <table class="comparison-table">
+            <tr>
+                <th>Condition (If...)</th>
+                <th>Result Clause</th>
+            </tr>
+            <tr>
+                <td><strong>Type 1:</strong> If + Present (V1)<br><em>If he runs fast...</em></td>
+                <td><strong>Will + V1</strong><br><em>...he will win.</em></td>
+            </tr>
+            <tr>
+                <td><strong>Type 2:</strong> If + Past (V2)<br><em>If he ran fast...</em></td>
+                <td><strong>Would + V1</strong><br><em>...he would win.</em></td>
+            </tr>
+            <tr>
+                <td><strong>Type 3:</strong> If + Had + V3<br><em>If he had run fast...</em></td>
+                <td><strong>Would Have + V3</strong><br><em>...he would have won.</em></td>
+            </tr>
+        </table>
+    </div>
+
+    <footer style="text-align: center; color: #718096; margin-top: 40px; font-size: 0.9rem;">
+        Teacher's Note: Stative verbs are frequently asked in error correction.
+    </footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Master Exceptions | Tenses</title>
+    <style>
+        :root {
+            --trap-red: #e53e3e;
+            --safe-green: #38a169;
+            --info-blue: #3182ce;
+            --bg-color: #f7fafc;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background-color: var(--bg-color);
+            color: #2d3748;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        h1 { text-align: center; color: #2b6cb0; margin-bottom: 5px; }
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: #2b6cb0;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* --- Exception Cards --- */
+        .exception-card {
+            background: white;
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 25px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.06);
+            border-top: 5px solid #ccc;
+        }
+
+        .card-header {
+            font-size: 1.2rem;
+            font-weight: 800;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+
+        .badge {
+            background: #2d3748;
+            color: white;
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-size: 0.8rem;
+            margin-right: 10px;
+            text-transform: uppercase;
+        }
+
+        /* --- Examples Grid --- */
+        .example-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            background: #edf2f7;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+
+        .wrong-box { color: var(--trap-red); font-size: 0.95rem; }
+        .right-box { color: var(--safe-green); font-weight: bold; font-size: 0.95rem; }
+
+        .rule-explanation {
+            margin-bottom: 10px;
+            color: #4a5568;
+        }
+        
+        /* Mobile adjustment */
+        @media (max-width: 600px) {
+            .example-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+    <a href="index.html" class="back-link">← Back to Menu</a>
+    <h1>Master Exceptions</h1>
+    <p style="text-align: center; color: #718096; margin-bottom: 30px;">The "Exam Traps" to Watch Out For</p>
+
+    <div class="exception-card" style="border-top-color: var(--trap-red);">
+        <div class="card-header">
+            <span class="badge" style="background: var(--trap-red);">Trap #1</span>
+            The "Since" Clause Rule
+        </div>
+        <div class="rule-explanation">
+            When "Since" is used to join two sentences, the verb <em>after</em> "since" is always <strong>Simple Past (V2)</strong>, and the main verb is <strong>Present Perfect</strong>.
+        </div>
+        <div class="example-grid">
+            <div class="wrong-box">❌ Two years have passed since he <u>has come</u> here.</div>
+            <div class="right-box">✅ Two years have passed since he <u>came</u> here.</div>
+        </div>
+    </div>
+
+    <div class="exception-card" style="border-top-color: var(--info-blue);">
+        <div class="card-header">
+            <span class="badge" style="background: var(--info-blue);">Trap #2</span>
+            The "It is time" Rule
+        </div>
+        <div class="rule-explanation">
+            If a sentence starts with "It is time" or "It is high time," the verb that follows must be in the <strong>Simple Past (V2)</strong>, even though it refers to now.
+        </div>
+        <div class="example-grid">
+            <div class="wrong-box">❌ It is time we <u>start</u> the class.</div>
+            <div class="right-box">✅ It is time we <u>started</u> the class.</div>
+        </div>
+    </div>
+
+    <div class="exception-card" style="border-top-color: var(--safe-green);">
+        <div class="card-header">
+            <span class="badge" style="background: var(--safe-green);">Nuance</span>
+            Will vs. Going To
+        </div>
+        <div class="rule-explanation">
+            Use <strong>"Going to"</strong> for plans you have <em>already made</em>. Use <strong>"Will"</strong> for instant decisions made at the moment of speaking.
+        </div>
+        <div style="margin-top: 15px;">
+            <p><strong>Scenario:</strong> You bought a ticket yesterday.</p>
+            <div class="right-box">✅ "I am <u>going to</u> fly to Delhi." (Plan)</div>
+            
+            <p style="margin-top: 10px;"><strong>Scenario:</strong> The phone is ringing.</p>
+            <div class="right-box">✅ "I <u>will</u> answer it." (Instant Decision)</div>
+        </div>
+    </div>
+
+    <div class="exception-card" style="border-top-color: #805ad5;">
+        <div class="card-header">
+            <span class="badge" style="background: #805ad5;">Usage</span>
+            Used To vs. Would
+        </div>
+        <div class="rule-explanation">
+            For past habits that are now finished, use <strong>"Used to"</strong>.
+        </div>
+        <div class="example-grid">
+            <div class="wrong-box">❌ I <u>was smoking</u> before.</div>
+            <div class="right-box">✅ I <u>used to</u> smoke.</div>
+        </div>
+    </div>
+
+    <footer style="text-align: center; color: #a0aec0; margin-top: 40px; font-size: 0.9rem;">
+        Teacher's Note: Trap #1 and #2 are very common in Board Exams.
+    </footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mastery Level | Advanced Tenses</title>
+    <style>
+        :root {
+            --master-gold: #b7791f;
+            --royal-purple: #553c9a;
+            --deep-teal: #285e61;
+            --bg-color: #fdfdfd;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background-color: var(--bg-color);
+            color: #1a202c;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        h1 { text-align: center; color: var(--royal-purple); margin-bottom: 5px; }
+        
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: var(--royal-purple);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* --- Mastery Cards --- */
+        .master-card {
+            background: white;
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+            border: 1px solid #e2e8f0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* Decorative top bar */
+        .master-card::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 6px;
+        }
+
+        /* Rule Number Circle */
+        .rule-number {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            color: white;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        }
+
+        .rule-title {
+            font-size: 1.4rem;
+            font-weight: 800;
+            margin-bottom: 15px;
+            margin-right: 50px; /* Space for the circle */
+        }
+
+        /* --- Analysis Section --- */
+        .analysis-box {
+            background: #f7fafc;
+            border-left: 4px solid;
+            padding: 15px;
+            margin-top: 15px;
+        }
+
+        .example-pair {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-top: 15px;
+            font-size: 1.05rem;
+        }
+
+        .correct-sent { color: #276749; font-weight: 500; }
+        .explanation { font-size: 0.9rem; color: #4a5568; margin-top: 5px; font-style: italic; }
+
+    </style>
+</head>
+<body>
+
+    <a href="index.html" class="back-link">← Back to Menu</a>
+    <h1>Mastery Rules</h1>
+    <p style="text-align: center; color: #718096; margin-bottom: 40px;">Advanced Moods & Sentence Transformations</p>
+
+    <div class="master-card">
+        <style>.master-card:nth-of-type(1)::before { background: var(--royal-purple); }</style>
+        <div class="rule-number" style="background: var(--royal-purple);">11</div>
+        
+        <div class="rule-title" style="color: var(--royal-purple);">The "Unreal Past" (Subjunctive)</div>
+        <p>When we talk about imaginary situations or wishes, we use the <strong>Past Tense</strong> to talk about the <strong>Present</strong>.</p>
+
+        <div class="analysis-box" style="border-color: var(--royal-purple);">
+            <strong>The "I Wish" Logic:</strong>
+            <div class="example-pair">
+                <div class="correct-sent">✅ "I wish I <u>knew</u> the answer."</div>
+                <div class="explanation">(Meaning: I don't know it right now. We use V2 'knew' for present regret.)</div>
+                
+                <div class="correct-sent" style="margin-top:10px;">✅ "I wish I <u>had met</u> him yesterday."</div>
+                <div class="explanation">(Meaning: I didn't meet him. We use Past Perfect 'had met' for past regret.)</div>
+            </div>
+            <p style="margin-top: 15px; font-weight: bold; color: #c53030;">Exception:</p>
+            <p>Always use "were" instead of "was" for imaginary status.</p>
+            <div class="correct-sent">✅ "If I <u>were</u> a bird, I would fly." (Not 'was')</div>
+        </div>
+    </div>
+
+    <div class="master-card">
+        <style>.master-card:nth-of-type(2)::before { background: var(--master-gold); }</style>
+        <div class="rule-number" style="background: var(--master-gold);">12</div>
+        
+        <div class="rule-title" style="color: #975a16;">Inversion (Hardly / Scarcely)</div>
+        <p>When a sentence starts with negative adverbs like <em>Hardly, Scarcely,</em> or <em>No Sooner</em>, the helping verb must come <strong>before</strong> the subject.</p>
+
+        <div class="analysis-box" style="border-color: var(--master-gold);">
+            <strong>The Formula:</strong><br>
+            <code style="background:#eee; padding:2px 5px; border-radius:4px;">Hardly + had + Subject + V3 ... when ...</code>
+
+            <div class="example-pair">
+                <div class="correct-sent">✅ "Hardly <u>had I reached</u> the station when the train left."</div>
+                <div class="explanation">Note: It is NOT "Hardly I had reached". The 'had' jumps forward.</div>
+            </div>
+
+            <br><strong>Alternative Formula:</strong><br>
+            <code style="background:#eee; padding:2px 5px; border-radius:4px;">No sooner + did + Subject + V1 ... than ...</code>
+             <div class="example-pair">
+                <div class="correct-sent">✅ "No sooner <u>did he see</u> the police than he ran."</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="master-card">
+        <style>.master-card:nth-of-type(3)::before { background: var(--deep-teal); }</style>
+        <div class="rule-number" style="background: var(--deep-teal);">13</div>
+        
+        <div class="rule-title" style="color: var(--deep-teal);">The "By The Time" Rule</div>
+        <p>This phrase acts as a deadline. It forces the use of <strong>Perfect Tenses</strong>.</p>
+
+        <div class="analysis-box" style="border-color: var(--deep-teal);">
+            <strong>Scenario A: Past Deadline</strong>
+            <div class="example-pair">
+                <div class="correct-sent">✅ "By the time we arrived, the movie <u>had started</u>."</div>
+                <div class="explanation">Rule: Simple Past (arrived) + Past Perfect (had started).</div>
+            </div>
+
+            <br><strong>Scenario B: Future Deadline</strong>
+            <div class="example-pair">
+                <div class="correct-sent">✅ "By the time you return, I <u>will have finished</u> the work."</div>
+                <div class="explanation">Rule: Simple Present (return) + Future Perfect (will have finished).</div>
+            </div>
+        </div>
+    </div>
+
+    <footer style="text-align: center; color: #a0aec0; margin-top: 40px; font-size: 0.9rem;">
+        Teacher's Note: Rule 12 is extremely common in "Do as Directed" questions.
+    </footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conclusion | Mastering Tenses</title>
+    <style>
+        :root {
+            --finish-green: #276749;
+            --primary-blue: #1a3a5f;
+            --bg-color: #f0fff4;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background-color: var(--bg-color);
+            color: #2d3748;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 800px;
+            width: 100%;
+        }
+
+        h1 {
+            color: var(--finish-green);
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #555;
+            font-size: 1.2rem;
+            margin-bottom: 40px;
+        }
+
+        /* --- Summary Card --- */
+        .summary-card {
+            background: white;
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+            text-align: center;
+            border-top: 8px solid var(--finish-green);
+        }
+
+        p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: #4a5568;
+            margin-bottom: 30px;
+        }
+
+        /* --- Checklist --- */
+        .checklist {
+            text-align: left;
+            background: #f7fafc;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border: 1px solid #e2e8f0;
+        }
+
+        .check-item {
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            font-weight: 500;
+        }
+
+        .check-icon {
+            color: var(--finish-green);
+            font-weight: bold;
+            font-size: 1.2rem;
+            margin-right: 12px;
+        }
+
+        /* --- Action Button --- */
+        .home-btn {
+            display: inline-block;
+            background-color: var(--primary-blue);
+            color: white;
+            padding: 15px 30px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: transform 0.2s;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .home-btn:hover {
+            transform: scale(1.05);
+            background-color: #2c5282;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Module Complete!</h1>
+        <p class="subtitle">You have navigated through the timeline of English Grammar.</p>
+
+        <div class="summary-card">
+            <h2>Why Tenses Matter</h2>
+            <p>
+                Tenses are the heartbeat of a sentence. Without them, we cannot distinguish history from the future, or a habit from a single moment. 
+                By mastering these 12 rules, you have gained the power to tell stories with precision and clarity.
+            </p>
+
+            <div class="checklist">
+                <h3>Final Mastery Checklist:</h3>
+                <div class="check-item"><span class="check-icon">✔</span> I can identify the 3 main time zones (Past, Present, Future).</div>
+                <div class="check-item"><span class="check-icon">✔</span> I understand the difference between "Simple" and "Continuous."</div>
+                <div class="check-item"><span class="check-icon">✔</span> I know to look for "Signal Words" (yesterday, now, since) before answering.</div>
+                <div class="check-item"><span class="check-icon">✔</span> I can spot the "Exam Traps" like Stative Verbs and Conditionals.</div>
+            </div>
+
+            <p style="font-weight: bold; color: var(--finish-green);">
+                "Practice is the key. Keep observing these rules in your daily reading."
+            </p>
+
+            <a href="index.html" class="home-btn">Return to Home Page</a>
+        </div>
+        
+        <footer style="margin-top: 40px; color: #a0aec0; font-size: 0.9rem;">
+            Course Module by Iftikhar Ahmed
+        </footer>
+    </div>
+
+</body>
+</html>
